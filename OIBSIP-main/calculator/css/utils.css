@@ -1,0 +1,19 @@
+body{
+  background-image: url("plain-backgrounds.jpg")
+}
+
+.grid{
+  position:relative;
+  top:70%;
+  display:grid;
+  grid-template-columns: 100px 100px 100px 100px;
+  width:400px; 
+  height:400px;
+/*   justify-items:center ; */
+   margin: auto;
+  gap: 1px;
+  padding:10px;
+  background-color: #5b5b59;
+  border: solid #aeaea7 2px;
+  border-radius: 5px;
+  }
